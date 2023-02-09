@@ -3,22 +3,6 @@ import msvcrt
 # Todo:  Need input specific for unix and mac 
  
 
-#data = input() 
-#charSequence =[]
-
-#for x in data : 
-#    charSequence.append(x)
-
-#print(charSequence)
- 
-#os.system("start /wait cmd  {command}")
-
-
-
-#Game Loop 
-#def display_pressed_key(key):
-#    print(f'You Pressed the {key} key')
-
 print("SuperBario")
 
 letterList = ["x"]
