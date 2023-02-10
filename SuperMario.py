@@ -8,8 +8,7 @@ print("SuperBario")
 letterList = ["x"]
 printCharacter = ""
 
-while True:   
-    #movingSideways=input() 
+while True:    
     if  msvcrt.getwche() == "d":  
         letterList.insert(0," ") 
         print("\nInserting value")
@@ -25,18 +24,4 @@ while True:
         printCharacter += x
         print("\nLetters in charlist" + printCharacter) 
          
-    printCharacter = ""
-
-   
-
-
-
-    #if keyboard.is_pressed('a'):
-    #    display_pressed_key("a")
-    #if keyboard.is_pressed('s'):
-    #        display_pressed_key("s")
-    #if keyboard.is_pressed('d'):
-    #        display_pressed_key("d")
-    #if keyboard.is_pressed('w'):
-    #        display_pressed_key("w")     
-#if __name__ == "__main__":
+    printCharacter = "" 
