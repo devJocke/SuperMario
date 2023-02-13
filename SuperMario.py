@@ -1,5 +1,6 @@
 from __future__ import annotations
 import msvcrt 
+import LevelDesign
 # Todo:  Need input specific for unix and mac 
  
 
@@ -9,8 +10,9 @@ playerPositions = ["x"]
 #Prints the first character X then sets the caret at the same position instead of jumping forward 
 print(playerPositions[0],end="\r") 
 
-while True:    
+levelOne = LevelDesign.LevelOne
 
+while True:
     movementInput = msvcrt.getch() 
 
     if  movementInput == b'd':  
